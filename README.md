@@ -22,7 +22,7 @@ The framework goes beyond classification accuracy by integrating **Grad-CAM expl
 - **External validation** on annotated whole-slide images from PIMS, Islamabad — completely unseen by the model during training
 - **Flask-based diagnostic web tool** with classification, Grad-CAM visualization, feature dashboard, and risk assessment modules
 
-### 6. Diagnostic Web Tool
+### Diagnostic Web Tool
 A Flask-based tool was developed with the following modules:
 - **Classification Module** — Upload image → DenseNet121 prediction + confidence score
 - **Grad-CAM Module** — Heatmap overlay for visual explanation
